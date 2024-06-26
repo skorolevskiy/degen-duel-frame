@@ -83,7 +83,7 @@ function getResponse(type: ResponseType) {
       shouldRetry
         ? `
           <meta property="fc:frame:button:1" content="Try again" />
-          <meta name="fc:frame:button:2" content="Follow Shark" />
+          <meta name="fc:frame:button:2" content="Follow DegenDuels" />
           <meta name="fc:frame:button:2:action" content="link" />
           <meta name="fc:frame:button:2:target" content="https://warpcast.com/~/channel/degenduels" />
         `
