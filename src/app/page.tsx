@@ -23,7 +23,7 @@ export default function Home() {
           href={`https://warpcast.com/~/channel/degenduels`}
           style={{ color: 'inherit' }}
         >
-          🦈Shark mafia🦈
+          ⚔️Degen Duels⚔️
         </a>
       </h1>
     </div>
