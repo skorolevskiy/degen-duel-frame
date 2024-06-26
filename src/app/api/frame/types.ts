@@ -8,6 +8,7 @@ export interface PlayersTable {
 	username: string | null
 	createdAt: kysely.ColumnType<Date, string | undefined, never>
 	wallet: string | null
+	points: number
     powerBadge: boolean
 }
 
@@ -52,6 +53,7 @@ export async function addUser(fid: string | null, username: string | null, walle
 			fid: fid ? fid : null,
 			username: username ? username : null,
             wallet: wallet,
+			points: 100,
             powerBadge: power_badge ? power_badge : false
 		})
 		.executeTakeFirst()
