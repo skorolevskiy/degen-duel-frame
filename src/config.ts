@@ -11,7 +11,7 @@ const imageData: FrameImageMetadata = {
 
 export const FRAME_METADATA = getFrameMetadata({
   buttons: [{
-		label: 'Join to Degen Duels',
+		label: 'Join the guild',
 	},],
   image: imageData,
   post_url: `${SITE_URL}/api/frame`,
