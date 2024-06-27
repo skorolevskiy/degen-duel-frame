@@ -1,4 +1,4 @@
-import { SITE_URL} from '@/config';
+import { SITE_URL } from '@/config';
 import { NextRequest, NextResponse } from 'next/server';
 import {
   Address,

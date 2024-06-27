@@ -3,6 +3,7 @@ import {
   SITE_URL,
 } from '@/config';
 import { Metadata } from 'next';
+import './style/style.css';
 
 export const metadata: Metadata = {
   metadataBase: SITE_URL ? new URL(SITE_URL) : undefined,
@@ -16,7 +17,7 @@ export default function Home() {
       <h1
         style={{
           margin: 'auto',
-          fontFamily: 'Comic Sans MS, Comic Sans, cursive',
+          fontFamily: 'Orbitron, Arial, sans',
         }}
       >
         <a
